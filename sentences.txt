@@ -1,0 +1,97 @@
+ Note that in some languages such as Java , there is no unsigned integer type . In this case , both input and output will be given as a signed integer type . They should not affect your implementation , as the integer's internal binary representation is the same , whether it is signed or unsigned .
+ In Java , the compiler represents the signed integers using 2's complement notation . Therefore , in Example 2 above , the input represents the signed integer-3 and the output represents the signed integer-1073741825 .
+ Explanation : The input binary string 00000010100101000001111010011100 represents the unsigned integer 43261596 , so return 964176192 which its binary representation is 00111001011110000010100101000000 .
+ Explanation : The input binary string 11111111111111111111111111111101 represents the unsigned integer 4294967293 , so return 3221225471 which its binary representation is 10111111111111111111111111111111 .
+ Implement the function getKthAncestor ( int node , int k ) to return the k-th ancestor of the given node . If there is no such ancestor , return-1 .
+ Given a string input representing the file system in the explained format , return the length of the longest absolute path to a file in the abstracted file system . If there is no file in the system , return 0 .
+ Explanation : It's ok for the output to have leading zeros , but the input is guaranteed not to have any leading zeros .
+ Now we have another string p . Your job is to find out how many unique non-empty substrings of p are present in s . In particular , your input is the string p and you need to output the number of different non-empty substrings of p in the string s .
+ Given an integer array of digits , return the largest multiple of three that can be formed by concatenating some of the given digits in any order .
+ This function returns an integer type , representing the number of exact matches ( value and position ) of your guess to the secret word . Also , if your guess is not in the given wordlist , it will return-1 instead .
+ Given a sequence of words written in the alien language , and the order of the alphabet , return true if and only if the given words are sorted lexicographicaly in this alien language .
+ Given A and B , return the minimum number of swaps to make both sequences strictly increasing . It is guaranteed that the given input always makes it possible .
+ Given an integer N as input , return the number of' 1's in the first N number in the magical string S .
+ The Linked List is represented in the input / output as a list of n nodes . Each node is represented as a pair of [ val , random_index ] where :
+ A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance . Now suppose you are given the locations and height of all the buildings as shown on a cityscape photo ( Figure A ) , write a program to output the skyline formed by these buildings collectively ( Figure B ) .
+ You are given two non-empty linked lists representing two non-negative integers . The most significant digit comes first and each of their nodes contain a single digit . Add the two numbers and return it as a linked list .
+ You need to return the number of important reverse pairs in the given array .
+ The same instance of FooBar will be passed to two different threads . Thread A will call foo ( ) while thread B will call bar ( ) . Modify the given program to output " foobar " n times .
+ input and output values are in floating-point .
+ Explanation : Almost the same as the first example , except we can't omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output .
+ Now given the employee information of a company , and an employee id , you need to return the total importance value of this employee and all their subordinates .
+ You are given a string expression representing a Lisp-like expression to return the integer value of .
+ Although we have two 1s in the input , we should only return the number of unique pairs .
+ A valid " croak " means a frog is printing 5 letters ‘ c ’ , ’ r ’ , ’ o ’ , ’ a ’ , ’ k ’ sequentially . The frogs have to print all five letters to finish a croak . If the given string is not a combination of valid " croak " return -1 .
+ You are given a target value to search . If found in the array return true , otherwise return false .
+ Given a string s , return the maximum number of unique substrings that the given string can be split into .
+ Given a string and a string dictionary , find the longest string in the dictionary that can be formed by deleting some characters of the given string . If there are more than one possible results , return the longest word with the smallest lexicographical order . If there is no possible result , return the empty string .
+ For the sample input , the output is :
+ You are given an integer array nums and you have to return a new counts array . The counts array has the property where counts [ i ] is the number of smaller elements to the right of nums [ i ] .
+ Given a chemical formula ( given as a string ) , return the count of each atom .
+ Now , given two positive integers L and R ( represented as strings ) , return the number of superpalindromes in the inclusive range [ L , R ] .
+ For example , given the above Employee table , the n th highest salary where n = 2 is 200 . If there is no n th highest salary , then the query should return null .
+ Construct the maximum tree by the given array and output the root node of this tree .
+ In LOL world , there is a hero called Teemo and his attacking can make his enemy Ashe be in poisoned condition . Now , given the Teemo's attacking ascending time series towards Ashe and the poisoning time duration per Teemo's attacking , you need to output the total time that Ashe is in poisoned condition .
+ After you are done modifying the input array , return the new length of the array .
+ You are given a string s , return the number of segments in the string .
+ The input / output represents the serialized format of a Quad-Tree using level order traversal , where null signifies a path terminator where no node exists below .
+ Given a square at location ( r0 , c0 ) in the grid and a color , color the border of the connected component of that square with the given color , and return the final grid .
+ such that arr [ i ] &lt; arr [ j ] &lt; arr [ k ] given 0 ≤ i &lt; j &lt; k ≤ n-1 else return false .
+ Given a list of unique words , return all the pairs of the distinct indices ( i , j ) in the given list , so that the concatenation of the two words words [ i ] + words [ j ] is a palindrome .
+ Solve a given equation and return the value of x in the form of string " x = #value " . The equation contains only' +' ,'-' operation , the variable x and its coefficient .
+ A string S of lowercase English letters is given . We want to partition this string into as many parts as possible so that each letter appears in at most one part , and return a list of integers representing the size of these parts .
+ Return an edge that can be removed so that the resulting graph is a rooted tree of N nodes . If there are multiple answers , return the answer that occurs last in the given 2D-array .
+ Return the final string after all the conversions ( possibly zero ) have been made . If there is more than one solution , return any of them . It can be shown that an answer is always possible with the given constraints .
+ Given an integer array destination and an integer k , return the k th lexicographically smallest instructions that will take Bob to destination .
+ The input will be a list of strings , and the output needs to be the length of the longest uncommon subsequence . If the longest uncommon subsequence doesn't exist , return -1 .
+ Given an input array nums , where nums [ i ] ≠ nums [ i +1 ] , find a peak element and return its index .
+ Given the total number of courses numCourses and a list of the prerequisite pairs , return the ordering of courses you should take to finish all courses .
+ For example , given 13 , return : [ 1,10,11,12,13,2,3,4,5,6,7,8,9 ] .
+ Given an integer array arr and a target value target , return the integer value such that when we change all the integers larger than value in the given array to be equal to value , the sum of the array gets as close as possible ( in absolute difference ) to target .
+ Do the above modifications to the input array in place , do not return anything from your function .
+ You have n binary tree nodes numbered from 0 to n-1 where node i has two children leftChild [ i ] and rightChild [ i ] , return true if and only if all the given nodes form exactly one valid binary tree .
+ Now , given 3 things-start , end , bank , your task is to determine what is the minimum number of mutations needed to mutate from " start " to " end " . If there is no such a mutation , return -1 .
+ The given node will always be the first node with val = 1 . You must return the copy of the given node as a reference to the cloned graph .
+ You are given coins of different denominations and a total amount of money amount . Write a function to compute the fewest number of coins that you need to make up that amount . If that amount of money can not be made up by any combination of the coins , return-1 .
+ Given a list of daily temperatures T , return a list such that , for each day in the input , tells you how many days you would have to wait until a warmer temperature . If there is no future day for which this is possible , put 0 instead .
+ For example , given the list of temperatures T = [ 73 , 74 , 75 , 71 , 69 , 72 , 76 , 73 ] , your output should be [ 1 , 1 , 4 , 2 , 1 , 1 , 0 , 0 ] .
+ Given the root node of a binary search tree ( BST ) and a value . You need to find the node in the BST that the node's value equals the given value . Return the subtree rooted with that node . If such node doesn't exist , you should return NULL .
+ Given an expression such as expression = " e + 8-a + 5 " and an evaluation map such as { " e " : 1 } ( given in terms of evalvars = [ " e " ] and evalints = [ 1 ] ) , return a list of tokens representing the simplified expression , such as [ "-1 * a " , " 14 " ]
+ Over all possible rotations , return the rotation index K that corresponds to the highest score we could receive . If there are multiple answers , return the smallest such index K.
+ The input strings will be given in the form of a + bi , where the integer a and b will both belong to the range of [-100 , 100 ] . And the output should be also in this form .
+ On this problem given a string s we need to return the sum of countUniqueChars ( t ) where t is a substring of s . Notice that some substrings can be repeated so on this case you have to count the repeated ones too .
+ Now given all the cities and flights , together with starting city src and the destination dst , your task is to find the cheapest price from src to dst with up to k stops . If there is no such route , output-1 .
+ Now , given string arrays queries and words , return an integer array answer , where each answer [ i ] is the number of words such that f ( queries [ i ] ) &lt; f ( W ) , where W is a word in words .
+ You are given several projects . For each project i , it has a pure profit P i and a minimum capital of C i is needed to start the corresponding project . Initially , you have W capital . When you finish a project , you will obtain its pure profit and the profit will be added to your total capital .
+ To sum up , pick a list of at most k distinct projects from given projects to maximize your final capital , and output your final maximized capital .
+ If the' reshape' operation with given parameters is possible and legal , output the new reshaped matrix ; Otherwise , output the original matrix .
+ Return the minimum number of steps to walk from the upper left corner ( 0 , 0 ) to the lower right corner ( m-1 , n-1 ) given that you can eliminate at most k obstacles . If it is not possible to find such walk return -1 .
+ The job is to output the lowest price you have to pay for exactly certain items as given , where you could make optimal use of the special offers .
+ The input string only contains' 0' to' 9' ,' /' ,' +' and'-' . So does the output .
+ Each fraction ( input and output ) has format ± numerator / denominator . If the first input fraction or the output is positive , then' +' will be omitted .
+ Now , we send a signal from a certain node K . How long will it take for all nodes to receive the signal ? If it is impossible , return-1 .
+ Explanation : There are three threads being fired asynchronously . The input [ 1,2,3 ] means thread A calls first ( ) , thread B calls second ( ) , and thread C calls third ( ) . " firstsecondthird " is the correct output .
+ Explanation : The input [ 1,3,2 ] means thread A calls first ( ) , thread B calls third ( ) , and thread C calls second ( ) . " firstsecondthird " is the correct output .
+ For example , given the above Employee table , the query should return 200 as the second highest salary . If there is no second highest salary , then the query should return null .
+ You're given the startTime , endTime and profit arrays , you need to output the maximum profit you can take such that there are no 2 jobs in the subset with overlapping time range .
+ Explanation : If Alex takes one pile at the beginning , Lee takes two piles , then Alex takes 2 piles again . Alex can get 2 + 4 + 4 = 10 piles in total . If Alex takes two piles at the beginning , then Lee can take all three piles left . In this case , Alex get 2 + 7 = 9 piles in total . So we return 10 since it's larger .
+ Your input will be several matchsticks the girl has , represented with their stick length . Your output will either be true or false , to represent whether you could make one square using all the matchsticks the little match girl has .
+ Note that the solution with the given constraints is guaranteed to be unique . Also return the answer sorted in non-increasing order .
+ If there is no way to paint any integer given the condition , return " 0 " .
+ The input contains N integers . Every integer is in the range of -2 31 and 2 31-1 and 0 ≤ N ≤ 1000 . The output is guaranteed to be less than 2 31-1 .
+ You are given two non-empty linked lists representing two non-negative integers . The digits are stored in reverse order , and each of their nodes contains a single digit . Add the two numbers and return the sum as a linked list .
+ For a given number N in base-10 , return the complement of it's binary representation as a base-10 integer .
+ In a 2D grid from ( 0 , 0 ) to ( N-1 , N-1 ) , every cell contains a 1 , except those cells in the given list mines which are 0 . What is the largest axis-aligned plus sign of 1 s contained in the grid ? Return the order of the plus sign . If there is none , return 0 .
+ Each person should appear in exactly one group , and every person must be in a group . If there are multiple answers , return any of them . It is guaranteed that there will be at least one valid solution for the given input .
+ Now given a string representing n , you should return the smallest good base of n in string format .
+ Given an array consisting of n integers , find the contiguous subarray of given length k that has the maximum average value . And you need to output the maximum average value .
+ The input and each element of the output are ListNodes , not arrays .
+ Insertion sort iterates , consuming one input element each repetition , and growing a sorted output list .
+ Clarification : The input / output format is the same as how LeetCode serializes a binary tree . You do not necessarily need to follow this format , so please be creative and come up with different approaches yourself .
+ Given an array of integers with possible duplicates , randomly output the index of a given target number . You can assume that the given target number must exist in the array .
+ Each of the threads is given a printNumber method to output an integer . Modify the given program to output the series 010203040506 ... where the length of the series must be 2 n .
+ Given the root of a Binary Search Tree and a target number k , return true if there exist two elements in the BST such that their sum is equal to the given target .
+ Now given the next click position ( row and column indices ) among all the unrevealed squares (' M' or' E' ) , return the board after revealing this position according to the following rules :
+ Given an expression representing a set of words under the given grammar , return the sorted list of words that the expression represents .
+ Return an edge that can be removed so that the resulting graph is a tree of N nodes . If there are multiple answers , return the answer that occurs last in the given 2D-array . The answer edge [ u , v ] should be in the same format , with u &lt; v .
+ Write a function strongPasswordChecker ( s ) , that takes a string s as input , and return the MINIMUM change required to make s a strong password . If s is already strong , return 0 .
