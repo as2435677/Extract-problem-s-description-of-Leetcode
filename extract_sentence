@@ -93,7 +93,7 @@ while i < total_files:
     tokens = nlp.word_tokenize(line)
     new_tokens = remove_useless_tokens(tokens)
     input_flag, output_flag = check_ioput_relateword(new_tokens)
-    if not (input_flag & output_flag):
+    if not (input_flag | output_flag):
         continue
     sen = recover_sentence(new_tokens)
     fo.writelines("%s\n" % sen)
